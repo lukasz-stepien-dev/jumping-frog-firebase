@@ -3,4 +3,10 @@ img {
     width: 150px;
     top: 45%;
     left: 45%;
+    transition: top 0.5s;
 }
+
+.jump {
+    top: 40%;
+}
+
