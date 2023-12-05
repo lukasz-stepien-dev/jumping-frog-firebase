@@ -1,5 +1,12 @@
-import "./App.css";
+import "./css/App.css";
+import Instruction from "./Instruction";
+import Frog from "./Frog";
 
 export default function App() {
-  return "hi"
+  return (
+      <>
+        <Instruction/>
+        <Frog/>
+      </>
+  )
 }

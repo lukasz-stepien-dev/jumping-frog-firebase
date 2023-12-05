@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+
+h1 {
+    font-family: 'Dhurjati', sans-serif;
+    color: #14342B;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
