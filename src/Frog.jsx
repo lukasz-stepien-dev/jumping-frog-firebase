@@ -11,6 +11,6 @@ export default function Frog() {
 
 
     return (
-        <img onClick={jump} src={frogImg} className={isJump} alt="frog" />
+        <img id={"frog"} onClick={jump} src={frogImg} className={isJump} alt="frog" />
     )
 }
