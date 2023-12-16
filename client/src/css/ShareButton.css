@@ -1,5 +1,4 @@
 #share-button {
-    min-width: 330px;
     position: absolute;
     text-align: center;
     bottom: 3%;
@@ -11,8 +10,7 @@
     font-size: 16px;
     border-radius: 50px;
     font-weight: bold;
-    transition: transform 0.2s,
-                all 0.2s;
+    transition: transform 0.2s;
 }
 
 #share-button:hover {
@@ -21,31 +19,4 @@
 
 #share-button:active {
     transform: translate(-50%, -50%) scale(0.8);
-}
-
-#link {
-    background-color: #eddc67;
-    border-radius: 5px;
-    padding: 8px;
-    font-size: 16px;
-    border: #14342B solid 2px;
-    margin-right: 5px;
-}
-
-#copy {
-    background-color: #14342B;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    transition: all 0.2s;
-}
-
-#copy:hover {
-    transform: scale(0.9);
-}
-
-#copy:active {
-    transform: scale(0.8);
 }
