@@ -1,4 +1,4 @@
-import "./css/ShareButton.css";
+import "./ShareButton.css";
 
 export default function ShareButton() {
     return (
